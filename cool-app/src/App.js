@@ -4,7 +4,7 @@ import './App.scss';
 const Header = () => {
   return (
     <header className="words-app">
-      <h1>my counter</h1>
+      <h1>Mycounter</h1>
     </header>
   )
 }
@@ -40,8 +40,8 @@ class Main extends React.Component {
     return (
       <section>
         <h3>{this.state.ctr}</h3>
-        <button onClick={this.handleClick1}>click for counter</button>
-        <button onClick={this.handleClick2}>click for counter</button>
+        <button class ='one' onClick={this.handleClick1}>up</button>
+        <button  class='two' onClick={this.handleClick2}>down</button>
       </section>
     )
   }
