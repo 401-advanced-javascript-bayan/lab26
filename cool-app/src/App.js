@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
+
 import './App.scss';
 
-import Header from '../src/modules/header.js'
-import Footer from '../src/modules/footer.js'
-import Main from '../src/modules/main.js'
+import Header from '../src/modules/header.js';
+import Footer from '../src/modules/footer.js';
+import Main from '../src/modules/main.js';
 
 // dummy component - it is also a functional component
 
@@ -17,7 +19,7 @@ class App extends React.Component {
         <Main />
         <Footer />
       </React.Fragment>
-    )
+    );
   }
 }
 

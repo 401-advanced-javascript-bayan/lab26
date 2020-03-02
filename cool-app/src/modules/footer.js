@@ -6,7 +6,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-     <footer>@ Cool Math</footer>
+    <footer>@ Cool Math</footer>
   )
 };
 

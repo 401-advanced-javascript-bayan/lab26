@@ -1,10 +1,11 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
 const Header = () => {
   return (
     <header className="words-app">
-      <h1>Integer Numbers Counter</h1>
+      <h1 id="h2">Integer Numbers Counter</h1>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
